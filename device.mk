@@ -29,3 +29,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Call the MiuiCamera setup
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
