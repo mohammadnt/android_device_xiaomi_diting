@@ -11,6 +11,7 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 include vendor/xiaomi/diting/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/diting
+KERNEL_PATH := device/xiaomi/diting-kernel
 
 # DTB
 BOARD_USES_DT := true
